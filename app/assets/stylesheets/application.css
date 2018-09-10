@@ -13,3 +13,57 @@
  *= require_tree .
  *= require_self
  */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.image_1-class {
+  position: absolute;
+  top: 100%%;
+  left: 10%;
+  width: 1000px;
+}
+
+.image_2-class {
+  position: absolute;
+  top: 100%%;
+  left: 50%;
+  width: 400px;
+
+}
+
+body {
+    background-color: black;
+}
+
+body h1 {
+  font-size: 40px;
+  color: white;
+  justify-content: center;
+  text-align: left;
+  padding-top: 750px;
+
+}
